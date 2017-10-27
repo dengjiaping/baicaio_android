@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_sign"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/circle_sign_selector"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/common_margin_10">
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_text_6"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_exp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_text_6"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_offer"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_text_6"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_text_6"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="财富详情"
+            android:textColor="@color/color_title_bg"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_text_6"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_rule"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:text="晋级规则"
+            android:textColor="@color/color_title_bg"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <View style="@style/view_w_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_bg1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="积分"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/common_margin_10"
+                android:layout_marginRight="@dimen/common_margin_10"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_h_line1"
+            android:layout_marginBottom="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/common_margin_10" />
+
+        <LinearLayout
+            android:id="@+id/ll_bg2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="金币"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/common_margin_10"
+                android:layout_marginRight="@dimen/common_margin_10"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+
+        <View
+            style="@style/view_h_line1"
+            android:layout_marginBottom="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/common_margin_10" />
+
+        <LinearLayout
+            android:id="@+id/ll_bg3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="贡献"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/common_margin_10"
+                android:layout_marginRight="@dimen/common_margin_10"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_h_line1"
+            android:layout_marginBottom="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/common_margin_10" />
+
+        <LinearLayout
+            android:id="@+id/ll_bg4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="经验"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/common_margin_10"
+                android:layout_marginRight="@dimen/common_margin_10"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/link" />
+</LinearLayout>

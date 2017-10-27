@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:background="@drawable/score_change_selector"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="30dp"
+        android:text="全部"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+    <TextView
+        android:background="@drawable/score_change_selector"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="30dp"
+        android:text="虚拟礼品"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:background="@drawable/score_change_selector"
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="30dp"
+        android:text="实物礼品"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

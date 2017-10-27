@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_safe_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.SafeSettingActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bind_wx"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="绑定微信账号" />
+
+        <ImageView
+            android:id="@+id/iv_wx_right"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right" />
+
+        <TextView
+            android:id="@+id/tv_wx_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:layout_toLeftOf="@id/iv_wx_right"
+            android:gravity="center"
+            android:textColor="@color/color_text_6"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bind_qq"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="绑定QQ账号" />
+
+        <ImageView
+            android:id="@+id/iv_qq_right"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right" />
+
+        <TextView
+            android:id="@+id/tv_qq_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:layout_toLeftOf="@id/iv_qq_right"
+            android:gravity="center"
+            android:textColor="@color/color_text_6"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_alignParentBottom="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="修改登录密码" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right" />
+
+
+    </RelativeLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_check_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="邮箱验证" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right" />
+
+
+    </RelativeLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_check_phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="手机验证" />
+
+        <ImageView
+            android:id="@+id/iv_mobile"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right" />
+
+        <TextView
+            android:id="@+id/tv_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:layout_toLeftOf="@id/iv_mobile"
+            android:textColor="@color/color_text_6"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_alignParentBottom="true" />
+</LinearLayout>

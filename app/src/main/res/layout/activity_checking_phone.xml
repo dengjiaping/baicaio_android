@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_checking_phone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.CheckingPhoneActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:src="@mipmap/ic_phone" />
+
+        <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+            android:id="@+id/et_phone_number"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:background="@android:color/transparent"
+            android:hint="请输入手机号"
+            android:maxLength="13" />
+    </LinearLayout>
+
+    <View style="@style/link" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:layout_marginRight="@dimen/common_margin_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_security_code" />
+
+        <EditText
+            android:id="@+id/et_sms_code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_security"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/green_shape"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/common_margin_10"
+            android:paddingRight="@dimen/common_margin_10"
+            android:text="获取验证码"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View style="@style/link" />
+
+    <TextView
+        android:id="@+id/tv_next_step"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/green_shape"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+</LinearLayout>

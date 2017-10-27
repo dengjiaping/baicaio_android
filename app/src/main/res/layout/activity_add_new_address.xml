@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_new_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.AddNewAddressActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="收货人:" />
+
+        <EditText
+            android:id="@+id/et_consignee"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="3"
+            android:background="@drawable/white_shape"
+            android:paddingLeft="@dimen/common_margin_10" />
+    </LinearLayout>
+
+    <View style="@style/view_w_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="联系电话:" />
+
+        <EditText
+            android:maxLength="11"
+            android:inputType="number"
+            android:id="@+id/et_phone"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="3"
+            android:background="@drawable/white_shape"
+            android:paddingLeft="@dimen/common_margin_10" />
+    </LinearLayout>
+
+    <View style="@style/view_w_line" />
+
+    <LinearLayout
+        android:id="@+id/rl_check_area_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="邮编:" />
+
+        <EditText
+            android:id="@+id/et_zip"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:background="@drawable/white_shape"
+            android:paddingLeft="@dimen/common_margin_10" />
+
+      
+    </LinearLayout>
+
+    <View style="@style/view_w_line" />
+
+    <TextView
+        style="@style/text_14sp_color10_center_v"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:text="详细地址:" />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="@dimen/common_margin_10"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:layout_marginRight="@dimen/common_margin_10"
+        android:background="@drawable/white_shape"
+        android:gravity="top"
+        android:hint="(如:北京市东城区长安街1号)"
+        android:padding="@dimen/common_margin_10"
+        android:textColor="@color/color_text_3"
+        android:textSize="12sp" />
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设为默认地址" />
+
+        <CheckBox
+            android:id="@+id/cb_default"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/checkbox_select"
+            android:button="@null" />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+</LinearLayout>

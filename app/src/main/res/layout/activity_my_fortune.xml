@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_fortune"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.MyFortuneActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView
+        android:id="@+id/mXRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView>
+</LinearLayout>

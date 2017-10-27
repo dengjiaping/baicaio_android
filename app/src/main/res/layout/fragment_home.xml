@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/color_title_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/rl_sousou"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/transparent_white_shape"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/ic_sousuo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/common_margin_10"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:text="请输入想要搜索的商品"
+                android:textColor="@color/color_text_9"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_home_release_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_5"
+                android:src="@mipmap/ic_release" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布"
+                android:textColor="#999898"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView
+        android:id="@+id/mXRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_activity_bg">
+
+    </com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView>
+
+
+</LinearLayout>

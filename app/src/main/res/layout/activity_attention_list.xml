@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/color_title_bg"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_sousou"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/little_green_shape">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/ic_sousuo" />
+
+            <EditText
+
+                android:id="@+id/et_sousuo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/iv"
+                android:background="@drawable/little_green_shape"
+                android:gravity="center_vertical"
+                android:hint="请输入想要搜索的商品"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_cancel"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@mipmap/ic_clear" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_switch_new"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:background="@drawable/original_switch_bg"
+            android:gravity="center"
+            android:paddingLeft="@dimen/common_margin_10"
+            android:paddingRight="@dimen/common_margin_10"
+            android:text="最新"
+            android:textColor="@drawable/original_switch_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_switch_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:background="@drawable/original_switch_bg"
+            android:gravity="center"
+            android:paddingLeft="@dimen/common_margin_10"
+            android:paddingRight="@dimen/common_margin_10"
+            android:text="精华"
+            android:textColor="@drawable/original_switch_text_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View style="@style/view_w_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_bg1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="全部"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_h_line1"
+            android:layout_marginBottom="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/common_margin_10"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_bg2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="攻略"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+
+        <View
+            style="@style/view_h_line1"
+            android:layout_marginBottom="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/common_margin_10" />
+
+        <LinearLayout
+            android:id="@+id/ll_bg3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="晒单"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/view_w_line" />
+
+    <com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView
+        android:id="@+id/mXRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView>
+</LinearLayout>

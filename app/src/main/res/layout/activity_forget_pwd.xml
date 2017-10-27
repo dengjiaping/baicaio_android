@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forget_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.ForgetPwdActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_bg1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="手机找回"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/common_margin_10"
+                android:layout_marginRight="@dimen/common_margin_10"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/view_h_line1"
+            android:layout_marginBottom="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/common_margin_10" />
+
+        <LinearLayout
+            android:id="@+id/ll_bg2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:text="用户名/邮箱找回"
+                android:textColor="@drawable/collect_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/common_margin_10"
+                android:layout_marginRight="@dimen/common_margin_10"
+                android:layout_marginTop="8dp"
+                android:background="@color/color_title_bg"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/link" />
+
+    <FrameLayout
+        android:id="@+id/fl_find_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </FrameLayout>
+</LinearLayout>

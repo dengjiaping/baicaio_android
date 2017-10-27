@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_coupon_change"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.CouponChangeActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <View style="@style/link" />
+    <com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView>
+</LinearLayout>

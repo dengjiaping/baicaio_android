@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_push"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/umeng_socialize_web_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.MyPushActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <View style="@style/link" />
+
+    <RelativeLayout
+        android:id="@+id/rl_open_push"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="开启关注推送"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/sb_open"
+            style="@style/SwitchButtonStyleMD"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <View style="@style/link" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/ll_other"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/rl_push_voice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="@dimen/common_margin_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="声音"
+                    android:textColor="@color/color_text_3"
+                    android:textSize="14sp" />
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/sb_voice"
+                    style="@style/SwitchButtonStyleMD"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <View style="@style/link" />
+
+            <RelativeLayout
+                android:id="@+id/rl_push_quake"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="@dimen/common_margin_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="震动"
+                    android:textColor="@color/color_text_3"
+                    android:textSize="14sp" />
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/sb_quake"
+                    style="@style/SwitchButtonStyleMD"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <View style="@style/link" />
+
+            <RelativeLayout
+                android:id="@+id/rl_push_quiet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="@dimen/common_margin_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="安静时段"
+                    android:textColor="@color/color_text_3"
+                    android:textSize="14sp" />
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/sb_quiet"
+                    style="@style/SwitchButtonStyleMD"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <View style="@style/link" />
+
+            <RelativeLayout
+                android:id="@+id/rl_time_quiet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/tv_time_period"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/common_margin_10"
+                    android:gravity="center_vertical"
+                    android:text="开启关注推送"
+                    android:textColor="@color/color_text_3"
+                    android:textSize="14sp" />
+
+                <ImageView
+
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="35dp"
+                    android:src="@mipmap/ic_right" />
+
+                <View
+                    style="@style/link"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ablow_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#22999999"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="textandiconmargin">10dp</dimen>
+    <dimen name="spacing">0.01dp</dimen>
+    <dimen name="goods_spacing">10dp</dimen>
+    <dimen name="service_spacing">10dp</dimen>
+    <dimen name="tag_corner_radius">0.0dip</dimen>
+    <!--     <dimen name="tag_corner_radius">20.0dip</dimen> -->
+    <dimen name="tag_horizontal_spacing">8.0dip</dimen>
+    <dimen name="tag_vertical_spacing">6.0dip</dimen>
+    <dimen name="common_margin_12">12.0dip</dimen>
+    <dimen name="common_margin_10">10.0dip</dimen>
+    <dimen name="body_padding_medium">10dp</dimen>
+    <dimen name="body_padding_large">10dp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="speaker_image_size">36dp</dimen>
+    <dimen name="speaker_image_padding">8dp</dimen>
+    <dimen name="vendor_image_size">100dp</dimen>
+    <dimen name="margin_5">5dip</dimen>
+
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="actionbar_item_height">45dip</dimen>
+    <dimen name="actionbar_item_width">45dip</dimen>
+
+    <!-- quicksidebar -->
+    <dimen name="textSize_quicksidebar">10sp</dimen>
+    <dimen name="textSize_quicksidebar_choose">15sp</dimen>
+    <dimen name="textSize_quicksidebartips">20sp</dimen>
+    <dimen name="height_quicksidebartips">45dp</dimen>
+    <dimen name="height_quicksidebaritem">19dp</dimen>
+</resources>

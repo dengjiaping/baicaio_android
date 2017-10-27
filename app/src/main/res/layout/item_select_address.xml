@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical">
+
+    <View style="@style/view_w_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/add_cb"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:background="@drawable/checkbox_select"
+            android:button="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:background="@android:color/white"
+            android:backgroundTint="@color/color_activity_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/common_margin_10"
+                android:paddingRight="@dimen/common_margin_10">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tv_address_name"
+                        style="@style/text_14sp_color10_center_v"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/tv_zip"
+                        style="@style/text_14sp_color10_center_v"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_phone_number"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+
+                    android:textColor="@color/color_text_3"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_address_detail"
+                style="@style/text_12sp_color10_center_v"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="@dimen/common_margin_10"
+                android:paddingRight="@dimen/common_margin_10" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_marginTop="5dp" />
+
+   
+</LinearLayout>

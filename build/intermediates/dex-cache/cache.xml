@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\umeng_shareboard_widget.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4b1a59e4c996ee354c2db160f4b1ad3b0e94aab5">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\umeng_shareboard_widget_b5477e7b0a95cb12ea62e08cebfa866291a119a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\umeng_social_tool.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="87ef211d4ef0c257c7d040fbaa411832330eb9aa">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\umeng_social_tool_9cb356d85bb6ecc75553e0a01fae3f5d5e328bcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.0_55e275abb7a02ba517862cce4cdb5fb9fdb58e78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\design\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.0_a1fec8b4ba43e360b5320bbb2b3f3cd729ce5da9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\jp.wasabeef\glide-transformations\2.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3305fe8fabbf56b45fa503d29d691bc84290ff23">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\jp.wasabeef-glide-transformations-2.0.2_9cb0e04f559f33291fe924f892c9f41da4c2ca19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.youth.banner\banner\1.4.9\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f49fbc1bda3fa9073a82dd87de3e1ceea24268d">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.youth.banner-banner-1.4.9_f29bb0c6c42e41e9087825ec2e287dbf2e02176b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.0_d42438936492bb23e9d100f0344dd0bf9029249b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\jp.co.cyberagent.android.gpuimage\gpuimage-library\1.4.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="eb9f1cef6b29492df701111c555908cb53dece35">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\jp.co.cyberagent.android.gpuimage-gpuimage-library-1.4.1_012f7704db3fce2acdadd70a2df7cbe4071711d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\umeng_social_net.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7dc09846075b535576671188dda46b968a466dd4">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\umeng_social_net_57944cccbaed359b2d82dc7c53af7f24c1336009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\umeng_social_shareboard.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c698121d485cc1cd502ff8fad5e4e71f72ad1e9b">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\umeng_social_shareboard_e14a0ac4f5a3a6fdad41806be9caee44248241c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.kyleduo.switchbutton\library\1.4.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d4f92bd1d1b0bafa88251fcda541517d3616d2e5">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.kyleduo.switchbutton-library-1.4.6_65d32987029411bcbba53cf93c587ecb0a979a96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.0_9d3b5cba1c070042d91bfd4359c93d28c3653f6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3a7127079ec88fd22c96c4ccadfec2fd3d28998">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\volley_fbffd602b072d2f6f54a2e80560058e3f9ceaaf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.0_31834318179b973077fc7ca11cf15a16ac9b2147.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.0_39bfdd23559a5324f1fea60642bf434ddcab82f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\SocialSDK_Sina_Simplify.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5a499afc96cdd9048ecf008e6b2534df714bde5">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\SocialSDK_Sina_Simplify_3953f81943c210ea6d2ea2c9cd69d98b61c127ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_cd4211d308d942e8929a1e74c1bdfa93ef15ea3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.yuyh.imgsel\library\1.3.8\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="96716c8bbb849a83571e4324fbec7e49ab1cbeab">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.yuyh.imgsel-library-1.3.8_5be0d05fd01c38d7d7d62c6069a02b0592334fda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\SocialSDK_WeChat_Simplify.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="bb1c4e9db2e6c4b41a50bcd7f4f6f1375f783121">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\SocialSDK_WeChat_Simplify_2c19d88b90e300a7823ee43ddfffd9487d9b8b64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_180f955c7c304a83c3285384317ea6894e0cdf0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\jpush-android-3.0.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c90213171bb7b8fd7ea5071a924aa4355589177f">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\jpush-android-3.0.8_961664ae309a2c984475d1f569e5383ce986bb66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.0_7e73b2459f28cac9bb4dba93bf3e6c81a5b884c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\umeng_social_api.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b746609643403fd41d57014af6606db06a39fdb0">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\umeng_social_api_883ced2cdc9e6d005f66ca1612176db1241fd346.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.0_f256f7b8965fc8654dede55b57d6022ad3a88b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.0_284417ab59bb6c91885ef2add393353f5e8bd2bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\umeng_social_shareview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7302d576b34443698c6e1bd5301a146682198c16">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\umeng_social_shareview_2ff69b0a7a6dbf554fc9002152145df0c1f52132.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.0_df5910cdcc884ca312221c3c94aa2cd0eab54713.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.0\f1e24ac977505d1fdcabadaa5be1f41dc11c4286\butterknife-7.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f1e24ac977505d1fdcabadaa5be1f41dc11c4286">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\butterknife-7.0.0_cdffcaeeececa2f5b7f8850f48173c48a03aff79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\jcore-android-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d68147a2495acffea57266427a8b76a1e99baea8">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\jcore-android-1.1.6_f75557b8cb324dfb30b30a9bb1e3ac8cd7f7ecb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.2\33ee82e324f4b1e40167f3dc5e01234a1c5cab61\jsoup-1.10.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\jsoup-1.10.2_d61bf41b3cba7bceaba32cd2bbf454e92b0f06c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.0_c3a79a8dc6c5154d526a2e4333556b7b8b7a1a11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.yuyh.easyadapter\library\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d89b45d635092afe0b971eb547293718f520f609">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.yuyh.easyadapter-library-1.1.0_343ad60e9998c12ff9b9420fb4c405958562474f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\libs\SocialSDK_QQ_Simplify.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0872b5d9028b4abe5502fdf6808cbe328400a387">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\SocialSDK_QQ_Simplify_ce0de485e5fc87986490bb6ed17464d1921cc832.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\baicaio\baicaio\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.0_9bb34570c1a0bb6759511342983c8ab721ccccde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\baicaio\baicaio\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
+    </item>
+
+</items>

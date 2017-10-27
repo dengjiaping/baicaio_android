@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_person_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.PersonSettingActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <View style="@style/view_w_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_face"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="头像"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_setting_face"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_person_head" />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_change_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="用户名"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_setting_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="吃兔子的胡萝卜"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_change_sex"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="性别"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_setting_right"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_setting_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/iv_setting_right"
+            android:text="女"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="收货信息"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right"
+
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_share"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="分享推广"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right"
+
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="问题反馈"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right"
+
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_safe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="安全设置"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right"
+
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_clear"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="清除缓存"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+
+
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="退出"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right"
+
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+</LinearLayout>

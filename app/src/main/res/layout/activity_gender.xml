@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.GenderActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <View
+        style="@style/view_w_line"
+        android:layout_marginTop="15dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:text="男" />
+
+        <CheckBox
+            android:id="@+id/cb_man"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:background="@drawable/checkbox_select"
+            android:button="@null" />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="@dimen/common_margin_10">
+
+        <TextView
+            style="@style/text_14sp_color10_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:text="女" />
+
+        <CheckBox
+            android:id="@+id/cb_woman"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:background="@drawable/checkbox_select"
+            android:button="@null" />
+    </RelativeLayout>
+
+    <View style="@style/view_w_line" />
+</LinearLayout>

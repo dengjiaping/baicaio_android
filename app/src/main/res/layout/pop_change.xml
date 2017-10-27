@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_pop_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/color_text_3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_describ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:layout_marginTop="@dimen/margin_5"
+            android:gravity="center"
+            android:textColor="@color/color_text_3"
+            android:textSize="12sp" />
+
+        <View style="@style/link" />
+
+        <TextView
+            android:id="@+id/tv_address_detail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingLeft="@dimen/common_margin_10"
+            android:paddingRight="@dimen/common_margin_10"
+            android:paddingTop="5dp"
+            android:text="选择地址"
+            android:textColor="#ff7043"
+            android:textSize="12sp" />
+
+        <View style="@style/link" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消兑换"
+                android:textColor="@color/color_title_bg"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_recyclerViewDivider" />
+
+            <TextView
+                android:id="@+id/tv_change"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确认兑换"
+                android:textColor="@color/color_title_bg"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

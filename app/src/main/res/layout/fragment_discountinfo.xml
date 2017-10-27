@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical">
+
+    <com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView
+        android:id="@+id/mXRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView>
+</LinearLayout>

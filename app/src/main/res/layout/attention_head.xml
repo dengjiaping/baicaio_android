@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_head"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/common_margin_10"
+            android:paddingRight="@dimen/common_margin_10"
+            android:textColor="@color/color_text_3"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_push"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="推送"
+                android:textColor="@color/color_text_6"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_push"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/push_img_selector" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_attention"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:background="@drawable/attention_selector"
+            android:gravity="center"
+            android:text="已关注"
+            android:textColor="@drawable/attention_color_selector"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#f7f7f7" />
+</LinearLayout>

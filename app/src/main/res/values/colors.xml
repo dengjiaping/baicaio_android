@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_text_3">#333333</color> <!-- 黑色 -->
+    <color name="color_text_6">#666666</color>
+    <color name="color_text_9">#999999</color>
+    <color name="color_recyclerViewDivider">#888888</color><!--revyclerView分割线颜色-->
+    <color name="color_load_dialog_transparent">#b0000000</color><!-- 黑色 透明度b0 -->
+    <color name="color_toast_background">#666666</color> <!-- toast bg -->
+    <color name="color_title_bg">#3dc399</color>
+    <color name="color_activity_bg">#f0f0f2</color>;
+    <color name="color_orange">#ff7043</color>
+    <color name="color_pop_bg">#99848484</color>
+    <color name="color_b4b4b4">#E3E3E3</color>
+    <color name="color_score_selecter_bg">#1e90ff</color>
+</resources>

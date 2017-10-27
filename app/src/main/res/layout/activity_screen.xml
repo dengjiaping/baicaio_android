@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.ScreenActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ececec"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:text="价格"
+        android:textColor="@color/color_text_3"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_margin_10"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_price_low"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/wihte_square_shape"
+            android:gravity="center_vertical"
+            android:hint="金额"
+            android:padding="@dimen/margin_5"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:text="~" />
+
+        <EditText
+            android:id="@+id/et_price_high"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/wihte_square_shape"
+            android:gravity="center_vertical"
+            android:hint=""
+            android:padding="@dimen/margin_5"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ececec"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:text="种类"
+        android:textColor="@color/color_text_3"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ececec"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:text="商城"
+        android:textColor="@color/color_text_3"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/common_margin_10">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

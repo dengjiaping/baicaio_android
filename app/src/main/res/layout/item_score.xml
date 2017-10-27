@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_margin_10">
+
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="@dimen/common_margin_10">
+
+            <TextView
+                android:id="@+id/tv_score_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/color_text_3"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:textColor="#cc0700"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_jinbi"
+                style="@style/text_14sp_color10_center_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_toRightOf="@id/tv_coin"
+                android:text="金币" />
+
+            <TextView
+                android:id="@+id/tv_score_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_toRightOf="@id/tv_jinbi"
+                android:textColor="#cc0700"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_toRightOf="@id/tv_score_price"
+                android:text="积分"
+                android:textColor="@color/color_text_3"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_score_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/red_shape"
+                android:paddingBottom="@dimen/margin_5"
+                android:paddingLeft="@dimen/common_margin_10"
+                android:paddingRight="@dimen/common_margin_10"
+                android:paddingTop="@dimen/margin_5"
+                android:text="商品兑换"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/view_w_line" />
+</LinearLayout>

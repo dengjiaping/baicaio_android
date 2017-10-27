@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_broke_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.BrokeDetailActivity">
+
+    <include
+        android:id="@+id/title_inclide"
+        layout="@layout/activity_title" />
+
+    <ScrollView
+        android:layout_below="@+id/title_inclide"
+        android:layout_above="@+id/rl_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"></RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_phone" />
+
+        <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+            android:id="@+id/et_enter_phone"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:background="@color/color_activity_bg"
+            android:hint="请输入用户名"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_margin="@dimen/margin_5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_security_code" />
+
+        <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+            android:id="@+id/et_email"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:layout_marginRight="@dimen/common_margin_10"
+            android:layout_weight="1"
+            android:background="@color/color_activity_bg"
+            android:hint="请输入邮箱"
+            android:maxLines="1" />
+
+
+    </LinearLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_margin="@dimen/margin_5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_password" />
+
+        <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+            android:id="@+id/et_enter_password"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:background="@color/color_activity_bg"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+    </LinearLayout>
+    <View
+        style="@style/view_w_line"
+        android:layout_margin="@dimen/margin_5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/ic_password" />
+
+        <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+            android:id="@+id/et_password_again"
+            style="@style/text_14sp_color10_center_v"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:background="@color/color_activity_bg"
+            android:hint="请再次输入密码"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/view_w_line"
+        android:layout_margin="@dimen/margin_5" />
+
+    <TextView
+        android:id="@+id/tv_regist_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/green_shape"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/common_margin_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <CheckBox
+            android:id="@+id/cb_check"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/checkbox_select"
+            android:button="@null" />
+
+        <TextView
+            style="@style/text_12sp_color10_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="我已同意" />
+
+        <TextView
+            android:id="@+id/tv_cabbage_rule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="《白菜哦平台协议》"
+            android:textColor="@color/color_title_bg"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">白菜哦</string>
+    <!-- XRecyclerView start -->
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放开始刷新</string>
+    <string name="listview_loading">加载中...</string>
+    <string name="nomore_loading"></string>
+    <!--<string name="nomore_loading">暂无更多数据</string>-->
+    <string name="refreshing">刷新中...</string>
+    <string name="refresh_done">刷新成功</string>
+    <string name="listview_header_last_time">last update：</string>
+    <!-- XRecyclerView end -->
+    <!-- 网络 start-->
+    <string name="generic_server_down">连接服务器失败~！</string>
+    <string name="no_internet">无网络连接~！</string>
+    <string name="generic_error">网络异常,请稍后再试~！</string>
+    <string name="title_activity_tutorial_jump_t">TutorialJumpTActivity</string>
+    <!-- 网络 end-->
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_bt"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/common_margin_10"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+                android:id="@+id/et_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wihte_square_shape"
+                android:gravity="top"
+                android:hint="请输入或将链接粘贴到此处(完成后按回车)"
+                android:imeOptions="actionDone"
+                android:inputType="textImeMultiLine"
+                android:minHeight="120dp"
+                android:padding="@dimen/margin_5"
+                android:singleLine="false"
+                android:textColor="#a59999"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:background="@drawable/wihte_square_shape"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_tianjiatupian" />
+
+            <TextView
+
+                style="@style/text_14sp_color10_center_v"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="@dimen/common_margin_10"
+                android:gravity="center_vertical"
+                android:text="标 题" />
+
+            <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+                android:id="@+id/tv_broke_title"
+                style="@style/text_14sp_color10_center_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wihte_square_shape"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="@dimen/common_margin_10" />
+
+            <TextView
+                style="@style/text_14sp_color10_center_v"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="推荐理由" />
+
+            <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+                android:id="@+id/et_broke_reson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wihte_square_shape"
+                android:hint="请在此处填写您的推荐理由"
+                android:padding="@dimen/common_margin_10"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/text_14sp_color10_center_v"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="价格" />
+
+            <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+                android:id="@+id/et_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/wihte_square_shape"
+                android:hint="请填写爆料商品价格"
+                android:maxLines="1"
+                android:padding="@dimen/common_margin_10"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/wihte_square_shape"
+            android:gravity="center"
+            android:text="取消爆料"
+            android:textColor="@color/color_text_3" />
+
+        <TextView
+            android:id="@+id/tv_release"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/green_square_shape"
+            android:gravity="center"
+            android:text="立即爆料"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

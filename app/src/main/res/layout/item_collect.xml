@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_img"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:layout_toRightOf="@id/iv_img"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/color_text_6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_commentsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_img"
+        android:layout_marginLeft="@dimen/common_margin_10"
+        android:layout_toRightOf="@id/iv_img"
+        android:text="评论数:"
+        android:textColor="@color/color_text_6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_comment_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_img"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_toRightOf="@id/tv_commentsize"
+        android:textColor="@color/color_text_6"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/iv_img"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/common_margin_10"
+        android:background="@drawable/screen_bt_shape"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10"
+        android:text="删除收藏"
+        android:textColor="@color/color_text_3"
+        android:textSize="14sp" />
+
+    <View
+        style="@style/view_w_line"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_private_letter_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_activity_bg"
+    tools:context="com.cnxxp.cabbagenet.activity.PrivateLetterDetailsActivity">
+
+    <include layout="@layout/activity_title" />
+
+    <com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.cnxxp.cabbagenet.xrecyclerview.XRecyclerView>
+
+    <View
+        android:id="@+id/line"
+        style="@style/view_w_line" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_margin_10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.cnxxp.cabbagenet.view.ContainsEmojiEditText
+                android:id="@+id/et_message"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/white_shape"
+                android:gravity="center_vertical"
+                android:hint="请在此处填写您的私信"
+                android:paddingLeft="@dimen/margin_5"
+                android:paddingRight="@dimen/margin_5"
+                android:textColor="@color/color_text_3"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_margin_10"
+            android:background="@drawable/green_shape"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingLeft="@dimen/common_margin_10"
+            android:paddingRight="@dimen/common_margin_10"
+            android:paddingTop="@dimen/margin_5"
+            android:text="发送"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
