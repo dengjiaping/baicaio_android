@@ -835,6 +835,67 @@ public class API {
         }
     }
 
+
+    /**
+     * 当前抽奖商品
+     *"api":"lucky_list","userid":"192792","pagesize":2,"page":1
+     * @param
+     * @param
+     * @param volleyInterface
+     */
+    public void luck_list(String TAG,String userid,int pagesize,int page,VolleyInterface volleyInterface){
+        JSONObject json = new JSONObject();
+        try {
+            json.put("api", "lucky_list");
+            json.put("userid", userid);
+            json.put("pagesize", pagesize);
+            json.put("page", page);
+            userAPI(TAG, json, volleyInterface);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 往期抽奖商品
+     *"api":"lucky_list_past","userid":"192792","pagesize":4,"page":1
+     * @param
+     * @param
+     * @param volleyInterface
+     */
+    public void lucky_list_past(String TAG,String userid,int pagesize,int page,VolleyInterface volleyInterface){
+        JSONObject json = new JSONObject();
+        try {
+            json.put("api", "lucky_list_past");
+            json.put("userid", userid);
+            json.put("pagesize", pagesize);
+            json.put("page", page);
+            userAPI(TAG, json, volleyInterface);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 我的抽奖
+     *"api":"myluckys","userid":"192792","pagesize":4,"page":1
+     * @param
+     * @param
+     * @param volleyInterface
+     */
+    public void myluckys(String TAG,String userid,int pagesize,int page,VolleyInterface volleyInterface){
+        JSONObject json = new JSONObject();
+        try {
+            json.put("api", "myluckys");
+            json.put("userid", userid);
+            json.put("pagesize", pagesize);
+            json.put("page", page);
+            userAPI(TAG, json, volleyInterface);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
     /*********************************
      * 购物模块
      *******************************/
@@ -1096,6 +1157,7 @@ public class API {
         }
     }
 
+
     /************
      * 版本更新
      ******************/
@@ -1121,4 +1183,40 @@ public class API {
     }
 
 
+    /***********************
+     * 券模块
+     *****************************************/
+    public void quanAPI(String tag, JSONObject jsonObject,
+                           VolleyInterface volleyInterface) {
+        try {
+            VolleyHttpRequest.getSingleton().RequstJsonPost(tag,
+                    Config.HTTP_UTL.QUAN, jsonObject, volleyInterface);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void keywords(String tag, VolleyInterface volleyInterface) {
+        JSONObject json = new JSONObject();
+        try {
+            json.put("api", "keywords");
+            quanAPI(tag, json, volleyInterface);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    //"api":"search_quan","q":"可乐"
+    public void search_quan(String tag,String words,String type, VolleyInterface volleyInterface) {
+        JSONObject json = new JSONObject();
+        try {
+            json.put("api", "search_quan");
+            json.put("q", words);
+            json.put("s", type);
+            quanAPI(tag, json, volleyInterface);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
 }

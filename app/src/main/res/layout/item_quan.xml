@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10"
+        android:paddingTop="@dimen/common_margin_10">
+
+
+        <ImageView
+            android:id="@+id/iv_discount_pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginLeft="@dimen/common_margin_10">
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:textColor="@color/color_text_3"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignTop="@+id/rl_from"
+                android:layout_marginTop="-22dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥"
+                    android:textSize="14dp"
+                    android:textColor="@android:color/holo_red_light"
+                    />
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  券后价"
+                    android:textSize="12sp"
+                    android:textColor="@color/color_recyclerViewDivider"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_from"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_from"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:padding="1dp"
+                            android:ellipsize="end"
+                            android:text="领5元券"
+                            android:background="@drawable/lingquan_shape"
+                            android:maxLines="1"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/tv_users"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="@dimen/margin_5"
+                        android:paddingTop="3dp"
+                        android:text="32548人领用"
+                        android:textColor="@color/color_recyclerViewDivider"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/dotted_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.01dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#f7f7f7" />
+</LinearLayout>

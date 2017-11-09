@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10"
+        android:paddingTop="@dimen/common_margin_10">
+        
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+            
+
+            <ImageView
+                android:id="@+id/iv_discount_pic"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@color/color_b4b4b4"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:id="@+id/iv_newtoday"
+                android:layout_width="48dp"
+                android:layout_height="16dp"
+                android:src="@mipmap/luck_todaynew"
+                android:visibility="invisible"
+                />
+            
+        </RelativeLayout>
+    
+       
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="@dimen/common_margin_10">
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="蒙牛 纯甄 常温酸奶200g..."
+                android:textColor="@color/color_text_3"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tv_opentime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="开奖时间: 10月27日 10:00"
+                android:textColor="@color/color_recyclerViewDivider"
+                android:layout_below="@+id/tv_des"
+                android:layout_marginTop="8dp"
+                android:textSize="11sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_alignTop="@+id/rl_from"
+                android:layout_marginTop="-35dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥"
+                    android:textSize="12dp"
+                    android:textColor="#3DC399"
+                    android:layout_alignParentBottom="true"
+                    />
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="0"
+                    android:textColor="#3DC399"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_yuanjia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="34dp"
+                    android:text=" ￥89"
+                    android:textSize="12dp"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/color_recyclerViewDivider"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_users"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="112人参加"
+                    android:textSize="12dp"
+                    android:textColor="#3DC399"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_from"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="4dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_endtime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="2dp"
+                            android:ellipsize="end"
+                            android:text="7天05::35:23 后结束"
+                            android:background="@drawable/choujiang_endtime"
+                            android:maxLines="1"
+                            android:textColor="#3DC399"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/iv_needjifen"
+                        android:layout_width="91dp"
+                        android:layout_height="29dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:text="10积分抽奖"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/choujiangbtn"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#f7f7f7" />
+</LinearLayout>

@@ -99,8 +99,9 @@
                     android:textColor="@color/color_text_3"
                     android:textSize="12sp" />
             </LinearLayout>
+
             <LinearLayout
-                android:id="@+id/ll_class6"
+                android:id="@+id/ll_class7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -111,17 +112,17 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@mipmap/ic_class_6"
-                    android:id="@+id/imageView" />
+                    android:src="@mipmap/ic_class_7" />
 
                 <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
-                    android:text="热门攻略"
+                    android:text="热门爆料"
                     android:textColor="@color/color_text_3"
                     android:textSize="12sp" />
             </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
@@ -142,13 +143,13 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@mipmap/ic_class_5" />
+                    android:src="@mipmap/quan_miao" />
 
                 <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
-                    android:text="热门晒单"
+                    android:text="马爸爸的券"
                     android:textColor="@color/color_text_3"
                     android:textSize="12sp" />
             </LinearLayout>
@@ -173,13 +174,12 @@
                     android:layout_width="wrap_content"
                     android:gravity="center"
                     android:layout_height="20dp"
-                    android:text="积分兑换"
+                    android:text="老白的羊毛"
                     android:textColor="@color/color_text_3"
                     android:textSize="12sp" />
             </LinearLayout>
-
             <LinearLayout
-                android:id="@+id/ll_class7"
+                android:id="@+id/ll_class6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -190,13 +190,14 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@mipmap/ic_class_7" />
+                    android:src="@mipmap/ic_class_6"
+                    android:id="@+id/imageView" />
 
                 <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
-                    android:text="热门爆料"
+                    android:text="攻略晒单"
                     android:textColor="@color/color_text_3"
                     android:textSize="12sp" />
             </LinearLayout>

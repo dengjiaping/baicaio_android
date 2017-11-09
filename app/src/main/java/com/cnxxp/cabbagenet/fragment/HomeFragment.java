@@ -14,6 +14,7 @@ import com.cnxxp.cabbagenet.R;
 import com.cnxxp.cabbagenet.activity.CouponChangeActivity;
 import com.cnxxp.cabbagenet.activity.MainActivity;
 import com.cnxxp.cabbagenet.activity.OriginalActivity;
+import com.cnxxp.cabbagenet.activity.QuanActivity;
 import com.cnxxp.cabbagenet.activity.ScoreChangeActivity;
 import com.cnxxp.cabbagenet.activity.SearchActivity;
 import com.cnxxp.cabbagenet.activity.WebActivity;
@@ -222,10 +223,12 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
                 mainActivity.switchFragment(1);
                 break;
             case R.id.ll_class5:
-                //热门晒单
-                bundle = new Bundle();
-                bundle.putInt("index", 2);
-                startActivity(OriginalActivity.class, bundle);
+                //马爸爸的券coupons
+//                bundle = new Bundle();
+//                bundle.putInt("index", 2);
+//                startActivity(OriginalActivity.class, bundle);
+                startActivity(QuanActivity.class);
+
                 break;
             case R.id.ll_class6:
                 //热门攻略

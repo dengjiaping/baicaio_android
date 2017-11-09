@@ -15,6 +15,7 @@ import com.android.volley.VolleyError;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.signature.StringSignature;
 import com.cnxxp.cabbagenet.R;
+import com.cnxxp.cabbagenet.activity.ChoujiangActivity;
 import com.cnxxp.cabbagenet.activity.LoginActivity;
 import com.cnxxp.cabbagenet.activity.MyArticleActivity;
 import com.cnxxp.cabbagenet.activity.MyCollectActivity;
@@ -23,6 +24,7 @@ import com.cnxxp.cabbagenet.activity.MyCouponActivity;
 import com.cnxxp.cabbagenet.activity.MyFortuneActivity;
 import com.cnxxp.cabbagenet.activity.MyMessageActivity;
 import com.cnxxp.cabbagenet.activity.MyPushActivity;
+import com.cnxxp.cabbagenet.activity.Mychoujiang;
 import com.cnxxp.cabbagenet.activity.PersonSettingActivity;
 import com.cnxxp.cabbagenet.activity.ScoreChangeActivity;
 import com.cnxxp.cabbagenet.api.API;
@@ -114,7 +116,7 @@ public class PersonFragment extends BaseFragment {
     }
 
 
-    @OnClick({R.id.activity_more_image_bg, R.id.iv_person_face, R.id.ll_my_article, R.id.ll_my_share, R.id.ll_my_comment, R.id.ll_my_collect, R.id.rl_my_score_exchange, R.id.rl_my_coupon, R.id.rl_person_setting, R.id.tv_person_sign, R.id.rl_my_message, R.id.rl_my_push})
+    @OnClick({R.id.activity_more_image_bg, R.id.iv_person_face, R.id.ll_my_article, R.id.ll_my_share, R.id.ll_my_comment, R.id.ll_my_collect, R.id.rl_my_score_exchange, R.id.rl_my_coupon,R.id.rl_my_choujiang, R.id.rl_person_setting, R.id.tv_person_sign, R.id.rl_my_message, R.id.rl_my_push})
     public void onClick(View view) {
         Intent intent;
         Bundle bundle;
@@ -186,6 +188,13 @@ public class PersonFragment extends BaseFragment {
                     startActivity(MyCouponActivity.class);
 
                     break;
+                case  R.id.rl_my_choujiang:
+                    //我的优惠券
+
+                    startActivity(ChoujiangActivity.class);
+
+                    break;
+
               /*  case R.id.rl_my_fortune:
                     //我的财富
 

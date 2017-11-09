@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_quan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cnxxp.cabbagenet.activity.QuanActivity">
+    <ImageView
+        android:id="@+id/iv_head_bg"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@mipmap/quan_bg_top"
+        android:scaleType="fitXY"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_souquan"
+        android:layout_width="331dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/shape_corners"
+        >
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@mipmap/souquan"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="11dp"
+        />
+        <EditText
+            android:id="@+id/et_souquan"
+            android:layout_width="195dp"
+            android:layout_height="23dp"
+            android:background="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:hint="输入您想买的宝贝名(如电风扇)"
+            android:textSize="13dp"
+            android:textColor="#CCCCCC"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_souquan"
+        android:layout_width="81dp"
+        android:layout_height="46dp"
+        android:background="@drawable/shape_corners_right"
+        android:layout_marginTop="49dp"
+       android:layout_toRightOf="@+id/rl_souquan"
+        android:layout_marginLeft="-80dp"
+        android:text="找券"
+        android:textSize="16dp"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="188dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大家都在找:"
+            android:textSize="14dp"
+            android:textColor="#999999"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            />
+        
+        <ImageView
+            android:id="@+id/iv_changekeywords"
+            android:layout_width="62dp"
+            android:layout_height="24dp"
+            android:src="@color/color_orange"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible"
+            />
+
+
+
+    </RelativeLayout>
+
+    <com.fyales.tagcloud.library.TagCloudLayout
+        android:layout_marginTop="234dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tagSpacing="15dp"
+        app:lineSpacing="10dp"
+        >
+
+
+    </com.fyales.tagcloud.library.TagCloudLayout>
+
+</RelativeLayout>

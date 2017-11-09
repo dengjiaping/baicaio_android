@@ -19,6 +19,7 @@ public class Config {
         public static final String USER = URL + "?g=api&m=user&a=init";//用户模块
         public static final String SHOP = URL + "?g=api&m=shop&a=init";//购物模块
         public static final String ARTICLE = URL + "?g=api&m=article&a=init";//文章模块
+        public static final String QUAN = URL + "?g=api&m=quan&a=init";//文章模块
         public static final String VERSIONURL = "http://121.199.25.219:8588/qmjxs/p/interface/version/api";
 
     }

@@ -73,7 +73,7 @@ public abstract class VolleyInterface {
             public void onResponse(JSONObject object) {
                 LogUtils.e("onResponse = " + object.toString());
                 try {
-                    int status = object.getInt("state");
+                    int status  = object.getInt("state");
                     String msg = object.getString("msg");
                     int check = object.optInt("check");
                     switch (status) {

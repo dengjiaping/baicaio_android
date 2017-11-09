@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_luck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnxxp.cabbagenet.activity.LuckActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/color_title_bg"
+                >
+                <LinearLayout
+                    android:id="@+id/ll_back"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+
+                    >
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/shop_image_back" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="返回"
+                        android:textSize="15dp"
+                        android:textColor="#ffffff"
+
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="活动进行中"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_mychoujiang"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:text="我的抽奖"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_pic"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@color/bottom_bg"
+                />
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="18dp"
+                android:text="Givenchy/纪梵希小羊皮口..."
+                android:textSize="19dp"
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="18dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textSize="12dp"
+                    android:textColor="#3DC399"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="26dp"
+                    android:textColor="#3DC399"
+                    />
+                <TextView
+                    android:id="@+id/tv_yuanjia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥299"
+                    android:textSize="12dp"
+                    android:textColor="#999999"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/iv_jifen"
+                android:layout_width="326dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center_horizontal"
+                android:text="10积分抽奖"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/choujiangbtn"
+                />
+            <RelativeLayout
+                android:layout_width="326dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="17dp"
+                >
+                <TextView
+                    android:id="@+id/iv_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3DC399"
+                    android:text="12324"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#666666"
+                    android:text="人已参加"
+                    android:layout_toRightOf="@+id/iv_user"
+                    />
+
+                <TextView
+                    android:id="@+id/iv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7天05::35:23 后结束"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 积分抽奖规则 -"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="22dp"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="    根据开奖当天的中国福利彩票排列5组合中奖号码，除以参与抽奖号码总数，得出的余数+1，即为中奖号码,例如假设排列5中奖号码为69475，参与抽奖号码总数3813，则中奖号码为：69475-3813*18+1=842，中奖结果客观真实有效，欢迎大家监督。"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

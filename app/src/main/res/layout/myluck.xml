@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin_10"
+        android:paddingRight="@dimen/common_margin_10"
+        android:paddingTop="@dimen/common_margin_10">
+
+
+        <ImageView
+            android:id="@+id/iv_discount_pic"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:src="@color/bottom_bg"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="194dp"
+            android:layout_height="67dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_margin_10">
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="蒙牛 纯甄 常温酸奶200g..."
+                android:textColor="@color/color_text_3"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2017-10-17 10:00:00"
+                android:textColor="#999999"
+                android:layout_below="@+id/tv_des"
+                android:layout_marginTop="10dp"
+                android:textSize="11dp"
+                />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="进行中"
+            android:textColor="#ED4E4E"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#f7f7f7" />
+</LinearLayout>

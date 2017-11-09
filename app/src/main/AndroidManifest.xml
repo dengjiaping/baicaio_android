@@ -421,7 +421,19 @@
         <activity android:name=".activity.PrivateLetterDetailsActivity" />
         <activity
             android:name=".activity.TutorialJumpTActivity"
-            android:label="@string/title_activity_tutorial_jump_t"></activity>
+            android:label="@string/title_activity_tutorial_jump_t" />
+        <activity
+            android:name=".activity.QuanActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchQuanActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.Mychoujiang" />
+        <activity android:name=".activity.ChoujiangActivity" />
+        <activity android:name=".activity.MoreChouJiangActivity" />
+        <activity android:name=".activity.LuckActivity"></activity>
     </application>
 
 </manifest>
