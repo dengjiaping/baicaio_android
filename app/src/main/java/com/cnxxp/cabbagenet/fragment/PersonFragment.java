@@ -189,7 +189,7 @@ public class PersonFragment extends BaseFragment {
 
                     break;
                 case  R.id.rl_my_choujiang:
-                    //我的优惠券
+                    //0元抽奖
 
                     startActivity(ChoujiangActivity.class);
 

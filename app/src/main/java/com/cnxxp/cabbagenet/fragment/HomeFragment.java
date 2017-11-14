@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 
 import com.android.volley.VolleyError;
 import com.cnxxp.cabbagenet.R;
+import com.cnxxp.cabbagenet.activity.ChoujiangActivity;
 import com.cnxxp.cabbagenet.activity.CouponChangeActivity;
 import com.cnxxp.cabbagenet.activity.MainActivity;
 import com.cnxxp.cabbagenet.activity.OriginalActivity;
@@ -214,8 +215,11 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
                 mainActivity.switchDiscount = 2;
                 break;
             case R.id.ll_class3:
-                //积分兑换
-                startActivity(ScoreChangeActivity.class);
+//                //积分兑换
+//                startActivity(ScoreChangeActivity.class);
+                //0元抽奖
+
+                startActivity(ChoujiangActivity.class);
                 break;
             case R.id.ll_class4:
                 //9.9包邮
