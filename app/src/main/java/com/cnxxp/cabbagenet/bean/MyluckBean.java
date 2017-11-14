@@ -19,6 +19,9 @@ public class MyluckBean {
     private String add_time;
     private String remark;
     private String luckdraw_num;
+
+
+    private String img;
     public void setId(String id) {
         this.id = id;
     }
@@ -88,5 +91,14 @@ public class MyluckBean {
     public String getLuckdraw_num() {
         return luckdraw_num;
     }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
 
 }

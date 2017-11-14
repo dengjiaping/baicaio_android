@@ -77,8 +77,9 @@ public class Mychoujiang extends BaseActivity implements View.OnClickListener {
                 finish();
                 break;
             case R.id.tv_gochoujiang:
-                Intent i = new Intent(this,ChoujiangActivity.class);
-                startActivity(i);
+//                Intent i = new Intent(this,ChoujiangActivity.class);
+//                startActivity(i);
+                finish();
                 break;
 
             default:

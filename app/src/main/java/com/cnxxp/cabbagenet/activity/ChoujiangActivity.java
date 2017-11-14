@@ -139,7 +139,7 @@ public class ChoujiangActivity extends BaseActivity implements View.OnClickListe
         });
     }
     private void httpchoujiang_last(){
-        API.getSingleton().lucky_list_past(TAG, Config.PublicParams.usid, 30, 1, new VolleyInterface(this) {
+        API.getSingleton().lucky_list_past(TAG, Config.PublicParams.usid, 5, 1, new VolleyInterface(this) {
             @Override
             public void onStateSuccess(String msg, JSONObject object) {
                 Log.d(TAG,object.toString());

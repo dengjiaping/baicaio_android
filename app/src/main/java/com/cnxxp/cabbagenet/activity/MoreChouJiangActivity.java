@@ -32,6 +32,7 @@ public class MoreChouJiangActivity extends BaseActivity implements View.OnClickL
     private TextView tv_mychoujiang;
     private XRecyclerView xr_luck_last;
     private ChoujianglastAdapter ca;
+    private int page;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,9 +48,21 @@ public class MoreChouJiangActivity extends BaseActivity implements View.OnClickL
         xr_luck_last.setLayoutManager(sousuoManager2);
         ca = new ChoujianglastAdapter(this);
         xr_luck_last.setAdapter(ca);
-        httpchoujiang_last();
+        page=1;
+        httpchoujiang_last(page);
         xr_luck_last.setPullRefreshEnabled(false);
-        xr_luck_last.setLoadingMoreEnabled(false);
+        xr_luck_last.setLoadingListener(new XRecyclerView.LoadingListener() {
+            @Override
+            public void onRefresh() {
+
+            }
+
+            @Override
+            public void onLoadMore() {
+                page++;
+                httpchoujiang_last(page);
+            }
+        });
     }
 
     @Override
@@ -82,24 +95,32 @@ public class MoreChouJiangActivity extends BaseActivity implements View.OnClickL
         }
 
     }
-    private void httpchoujiang_last(){
-        API.getSingleton().lucky_list_past(TAG, Config.PublicParams.usid, 30, 1, new VolleyInterface(this) {
+    private void httpchoujiang_last(int pages){
+        API.getSingleton().lucky_list_past(TAG, Config.PublicParams.usid, 10, pages, new VolleyInterface(this) {
             @Override
             public void onStateSuccess(String msg, JSONObject object) {
                 Log.d(TAG,object.toString());
                 MyBean<List<ChoujiangLastBean>> myBean = mGson.fromJson(object.toString(), new TypeToken<MyBean<List<ChoujiangLastBean>>>() {
                 }.getType());
-                ca.setListData(myBean.getData());
+                if (page==1){
+                    ca.setListData(myBean.getData());
+                }else{
+
+                    ca.addList(myBean.getData());
+                }
+
             }
 
             @Override
             public void onStateSuccessDataNull(String msg) {
-
+                showCustomToast("到底啦,别扯了");
             }
 
             @Override
             public void onStateFinish() {
-
+                dismissLoadDialog();
+                xr_luck_last.loadMoreComplete();
+                xr_luck_last.refreshComplete();
             }
 
             @Override

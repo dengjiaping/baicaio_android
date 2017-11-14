@@ -1,6 +1,7 @@
 package com.cnxxp.cabbagenet.adapter;
 
 import android.content.Context;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.view.LayoutInflater;
@@ -66,6 +67,7 @@ public class ChoujiangAdapter extends BaseRecyclerAdapter<ChoujiangBean, Choujia
 
         holder.tv_opentime.setText("开奖时间: "+TimeUtil.transationSysTime(Long.valueOf(bean.getSign_date())));
        holder.tv_yuanjia.setText("￥"+bean.getPrice());
+        holder.tv_yuanjia.getPaint().setFlags(Paint. STRIKE_THRU_TEXT_FLAG); //中划线
         holder.tv_users.setText(bean.getBuy_num()+"人参加");
         String datePoor = TimeUtil.getDatePoor(Long.valueOf(bean.getSign_date()) * 1000 - System.currentTimeMillis());
         holder.tv_endtime.setText(datePoor+" 后结束");

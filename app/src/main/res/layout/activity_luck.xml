@@ -179,8 +179,34 @@
                 android:layout_marginTop="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="中奖号计算规则绝对透明公正，计算规则如下："
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="根据开奖当天的中国福利彩票排列5组合中奖号码，除以参与抽奖号码总数，得出的余数+1，即为中奖号码"
+                />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="例如假设排列5中奖号码为69475，参与抽奖号码总数3813，则中奖号码为：69475-3813*18+1=842"
+                />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:padding="30dp"
-                android:text="    根据开奖当天的中国福利彩票排列5组合中奖号码，除以参与抽奖号码总数，得出的余数+1，即为中奖号码,例如假设排列5中奖号码为69475，参与抽奖号码总数3813，则中奖号码为：69475-3813*18+1=842，中奖结果客观真实有效，欢迎大家监督。"
+                android:text="中奖结果客观真实有效，欢迎大家监督"
+                android:layout_gravity="center_horizontal"
                 />
 
 

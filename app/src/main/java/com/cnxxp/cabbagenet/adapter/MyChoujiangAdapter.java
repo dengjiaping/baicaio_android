@@ -1,6 +1,7 @@
 package com.cnxxp.cabbagenet.adapter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -62,9 +63,24 @@ public class MyChoujiangAdapter extends BaseRecyclerAdapter<MyluckBean, MyluckHo
 //        holder.iv_newtoday.setVisibility(View.VISIBLE);
 
         holder.tv_time.setText(TimeUtil.transationSysTime(Long.valueOf(bean.getAdd_time())));
-       holder.tv_status.setText(bean.getStatus());
+        switch (bean.getStatus()){
+            case "0":
+                holder.tv_status.setText("进行中");
+                break;
+            case "1":
+                holder.tv_status.setText("未中奖");
+                holder.tv_status.setTextColor(Color.GRAY);
+                break;
+            case "2":
+                holder.tv_status.setText("中奖");
+                break;
+            default:
+                holder.tv_status.setText(bean.getStatus());
+                break;
+        }
 
-        Glide.with(mContext).load("").placeholder(R.mipmap.ic_square_pic).error(R.mipmap.ic_square_pic).into(holder.iv_discount_pic);
+
+        Glide.with(mContext).load(bean.getImg()).placeholder(R.mipmap.ic_square_pic).error(R.mipmap.ic_square_pic).into(holder.iv_discount_pic);
 //        String title = bean.getTitle().replace("<span>", "<font color='#ff4444'>");
 //        title = title.replace("</span>", "</font>");
         holder.tv_des.setText(bean.getItem_name());

@@ -1,5 +1,6 @@
 package com.cnxxp.cabbagenet.activity;
 
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -56,7 +57,7 @@ public class LuckActivity extends BaseActivity implements View.OnClickListener {
         iv_time.setText(TimeUtil.transationSysTime(Long.valueOf(time))+"后结束");
         Glide.with(this).load(pic).placeholder(R.mipmap.ic_square_pic).error(R.mipmap.ic_square_pic).into(iv_pic);
 
-
+        tv_yuanjia.getPaint().setFlags(Paint. STRIKE_THRU_TEXT_FLAG); //中划线
     }
 
     @Override
